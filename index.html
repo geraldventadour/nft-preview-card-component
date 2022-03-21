@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <header class="sr-only"><h1>NFT preview card</h1></header>
+    <main>
+      <article class="card box stack center radius">
+        <figure class="card__image radius">
+          <img src="images/image-equilibrium.jpg" alt="" />
+        </figure>
+
+        <h2><a href="#">Equilibrium #3429</a></h2>
+        <p class="margin-block-start:1rem">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <dl>
+          <div class="etherum with-icon">
+            <dt class="sr-only">Price</dt>
+            <dd class="color:cyan font-weight:semi-bold">0.041 ETH</dd>
+          </div>
+          <div class="duration with-icon">
+            <dt class="sr-only">End of sale</dt>
+            <dd><time datetime="P3D">3 days</time> left</dd>
+          </div>
+        </dl>
+        <hr />
+        <footer class="margin-block-start:1rem">
+          <span class="with-icon">
+            <img class="icon radius" src="images/image-avatar.png" alt="" />
+            <small>Creation of <a href="#">Jules Wyvern</a> </small>
+          </span>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
